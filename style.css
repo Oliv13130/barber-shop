@@ -75,7 +75,7 @@ h1{
 
 }
 .picture {
-    background: url(./IMG/bandeau.jpg-min.jpg);
+    background: url(./img/bandeau.jpg-min.jpg);
     height: 420px;
     display: flex;
     justify-content:center;
