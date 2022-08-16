@@ -1,0 +1,229 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-weight: 300;
+    font-weight: bold;
+}
+
+/* ******************** DEBUT DU HEADER ******************** */
+
+.entete{
+    background:#F5F5DC;
+    box-shadow: -1px 2px 4px 0 black;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.box{
+    width: 90%;
+    display: flex;
+    margin: auto ;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    border-radius: 10px; 
+}
+
+.search{
+    position: relative;
+}
+.search i{
+    position:absolute;
+    right:5px;
+    bottom: 2px;
+}
+
+
+.box img{
+    height: 150px;
+}
+
+.menu {
+     display: flex;
+     justify-content: space-between;
+     width:90%;
+     margin: auto;
+    
+}
+.menu-list {
+    display: flex;
+    padding: 0;
+}
+.menu-list li{
+    margin-right: 40px;
+    list-style-type: none; 
+    font-size: 30px;
+}
+.menu-list li a{
+    color:black;
+}
+
+.menu-moustache{
+    height: 20px;
+    align-self: center;
+
+}
+.picture {
+    background: url(./IMG/bandeau.jpg-min.jpg);
+    height: 420px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.picture button {
+    padding: 10px;
+    background-color:#005F71 ;
+    color: white;
+    border: #005F71;
+    box-shadow:0px 3px 6px 3px black;
+}
+/*************FIN DU HEADER****************/
+
+
+/* ******************** DEBUT DU MAIN ******************** */
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.presentation p{
+    text-align: center;
+    font-size: x-large;
+}
+
+.row{
+    display: flex;
+    justify-content:space-between;
+}
+
+.colonne{
+    border: 5px solid goldenrod;
+    width: 30%;
+    padding: 5px;
+}
+.colonne img{
+    height: 300px;
+    width:100% ;
+}
+.colonne p{
+    text-align: center;
+    font-size: large;
+}
+.colonne button{
+    padding: 5px 10px;
+    background-color: #005F71;
+    box-shadow: 1px 2px 3px 0px black;
+    border: #005F71;
+    color: #fff;
+}
+.colonne-btn {
+    text-align: right;
+}
+
+/*********************** FIN DU MAIN ***********************/
+
+
+/* ******************** DEBUT DU FOOTER ******************** */
+
+footer {
+    margin-top: 150px;
+    font-size: large;
+}
+
+.logo2 img{
+    width:150px;
+}
+
+.bas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5DC;
+}
+
+.gauche ul{
+    display:flex;
+    flex-direction:column;
+    list-style-type: none;
+}
+
+.milieu nav ul{
+    display: flex;
+    flex-direction: column;
+}
+.milieu ul{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.droite ul {
+   display:flex;
+   align-items: center;
+   list-style-type: none;
+}
+.droite h4{
+    text-align: center;
+}
+
+.droite ul img{
+    margin-right: 30px;
+}
+
+.copyright p{
+    color: white;
+    
+}
+.copyright{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    background-color: rgb(18, 143, 139);
+}
+
+/************FIN DU FOOTER*************/
+
+
+
+
+
+
+/*************CLASSES GENERIQUES***********/
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.bg-blue{
+background-color: #005F71;
+}
+ 
+
+
